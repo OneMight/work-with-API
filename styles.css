@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px 0;
+    background-color: black;
+}
+.logo{
+    width: 300px;
+    height: 100px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+input[type="text"]{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-family: "Chakra Petch", sans-serif;
+    font-style: normal;
+}
+.characters{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+}
+.input-data{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 600px;
+    padding: 20px 0;
+}
+#gender{
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.characters > div{
+    padding-top: 20px;
+}
+.title-name{
+    font-size: 30px;
+    font-family: "Chakra Petch", sans-serif;
+    font-style: normal;
+}
+#gerder > option{
+    font-family: "Chakra Petch", sans-serif;
+    font-style: normal;
+}
+.loadcharacters{
+    padding-top: 100px;
+    width: 90%;
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+#search-button{
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#load-more-button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.character-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
